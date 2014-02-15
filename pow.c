@@ -1,10 +1,12 @@
 #include<stdio.h>
-#include<calculator.h>
+#include "calculator.h"
 
-float pow(foat a,float b)
+float pow(float a,float b)
 {
- float pow; 
- for(int i=0;i<b;i++)
-   pow=a*a;
- return(pow);
+
+	float pow = 1; 
+	int i;
+	for(i=1; i<= b; i++)
+		pow = pow * a;
+	return(pow);
 }  

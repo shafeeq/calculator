@@ -10,7 +10,7 @@ int subtract(int a, int b);
 int modulus(int x,int y);
 
 float pow(float,float);
-float log(float x);
+float logx(float x);
 
 
 #endif /* CALCULATOR_H */
