@@ -9,7 +9,7 @@ int subtract(int a, int b);
 
 int modulus(int x,int y);
 
-float pow(float,float);
+float power(float,float);
 float logx(float x);
 
 

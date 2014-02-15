@@ -40,7 +40,7 @@ int main()
 				printf("%f / %f = %f \n", x, y, divide(x,y));
 				break;
 			case 5:
-				printf("%f ^ %f = %f \n", x, y, pow(x,y));
+				printf("%f ^ %f = %f \n", x, y, power(x,y));
 				break;
 			case 6:
 				printf("log(%f) = %f\n", x, logx(x));
